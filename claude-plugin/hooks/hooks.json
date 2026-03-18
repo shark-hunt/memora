@@ -1,0 +1,25 @@
+{
+  "SessionStart": [
+    {
+      "hooks": [
+        {
+          "type": "command",
+          "command": "python3 ${CLAUDE_PLUGIN_ROOT}/hooks-handlers/session_start.py",
+          "timeout": 5000
+        }
+      ]
+    }
+  ],
+  "PostToolUse": [
+    {
+      "hooks": [
+        {
+          "type": "command",
+          "command": "python3 ${CLAUDE_PLUGIN_ROOT}/hooks-handlers/post_tool_use.py",
+          "timeout": 2000,
+          "async": true
+        }
+      ]
+    }
+  ]
+}

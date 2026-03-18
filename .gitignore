@@ -1,0 +1,23 @@
+__pycache__/
+*.db
+*.egg-info/
+
+config/allowed_tags.json
+.DS_Store
+.claude/*
+!.claude/skills/
+
+# Local config
+.mcp.json
+
+# Vendored libs
+lib/
+
+# uv lock file
+uv.lock
+data/
+
+# Build artifacts
+dist/
+.wrangler/
+*.lock
