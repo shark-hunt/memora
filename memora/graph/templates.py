@@ -1387,4 +1387,3 @@ Duplicates ({len(duplicate_ids)})</div></div>'''
     </script>
 </body>
 </html>'''
-
